@@ -1,0 +1,14 @@
+flask
+PyPDF2
+langchain_openai
+langchain_core
+langchain_pinecone
+pinecone
+uuid
+langchain_unstructured
+langchain_community
+boto3
+firebase_admin
+langchain
+Pillow
+pymupdf

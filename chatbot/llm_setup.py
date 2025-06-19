@@ -13,7 +13,7 @@ llm = ChatOpenAI(
     max_retries=2,
     api_key=OPENAI_API_KEY,
 )
-# llm = ChatGroq(temperature=0.7, groq_api_key="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", model_name="llama3-8b-8192")
+
 set_llm_cache(InMemoryCache())
 
 embeddings = OpenAIEmbeddings(model=EMBEDDINGS_MODEL)
